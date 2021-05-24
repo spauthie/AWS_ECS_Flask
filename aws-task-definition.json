@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:642889549177:task-definition/ec2-oil:8",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:642889549177:task-definition/ec2-oil:10",
   "family": "ec2-oil",
   "requiresAttributes": [
     {
@@ -77,7 +77,7 @@
   ],
   "networkMode": null,
   "cpu": null,
-  "revision": 8,
+  "revision": 10,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
