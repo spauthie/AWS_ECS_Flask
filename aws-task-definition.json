@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "642889549177.dkr.ecr.eu-west-3.amazonaws.com/container-oil:50d150a319cc3b7238808830d4e2128fff46f4c3",
+      "image": "642889549177.dkr.ecr.eu-west-3.amazonaws.com/container-oil",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -55,8 +55,8 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:642889549177:task-definition/ec2-oil:12",
-  "family": "ec2-oil",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:642889549177:task-definition/taskv2-oil:1",
+  "family": "taskv2-oil",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -77,7 +77,7 @@
   ],
   "networkMode": null,
   "cpu": null,
-  "revision": 12,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
