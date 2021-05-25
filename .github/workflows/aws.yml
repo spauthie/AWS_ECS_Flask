@@ -81,6 +81,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: service-oil
+        service: servicev3-oil
         cluster: cluster-oil
         wait-for-service-stability: true
