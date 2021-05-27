@@ -12,9 +12,7 @@ app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = (
     f'postgresql+psycopg2://{os.getenv("POSTGRES_USER")}:' +
-    f'{os.getenv("POSTGRES_PW")}@' +
-    f'{os.getenv("POSTGRES_URL")}/' +
-    f'{os.getenv("POSTGRES_DB")}'
+    f'{os.getenv("POSTGRES_PW")}@{os.getenv("POSTGRES_URL")}/{os.getenv("POSTGRES_DB")}'
 )
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
