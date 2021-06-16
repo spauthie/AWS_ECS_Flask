@@ -42,7 +42,7 @@ class Transaction(db.Model):
 def hello_world():
     return 'Hello world!'
 
-
+#Random page to check the DB co
 @app.route('/list_db')
 def list_db():
     transactions = Transaction.query.all()

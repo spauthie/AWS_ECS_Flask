@@ -4,7 +4,7 @@ FROM python:3.8-slim
 RUN apt-get update
 RUN apt-get install -y postgresql libpq-dev postgresql-client postgresql-client-common gcc
 
-# add user (change to whatever you want)
+
 # prevents running sudo commands
 RUN useradd -r -s /bin/bash stan
 
